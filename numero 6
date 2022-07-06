@@ -1,0 +1,16 @@
+int main ()
+{
+    int b, a, ar;
+    
+    printf("Informe a base do retângulo:");
+    scanf("%d", &b);
+    
+    printf("Informe a altura do retângulo:");
+    scanf("%d", &a);
+    
+    ar = (b * a);
+    
+    printf("A área do retângulo é \n%d", ar);
+    
+    return 0;
+}
