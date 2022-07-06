@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    float salario, per, nov, nov2, nov3;
+    
+    printf("Informe o salário do funcionário: ");
+    scanf("%f", &salario);
+    
+    printf("Informe o percentual de reajuste do salário: ");
+    scanf("%f", &per);
+    
+    nov = salario * per;
+    nov2 = nov/100;
+    nov3 = nov2 + salario;
+    
+    printf("O salário do funionário depois do reajuste é de: \nR$ %.2f", nov3);
+
+    return 0;
+}
