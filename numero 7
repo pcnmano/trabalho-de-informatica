@@ -1,0 +1,14 @@
+int main()
+{
+   int id, mes, dia;
+   
+   printf("Informe a idade: ");
+   scanf("%d", &id);
+   
+   mes = (id * 12);
+   dia = (mes * 30);
+   
+   printf("Idade expressa em dias de vida: %d", dia);
+   
+   return 0;
+}
