@@ -1,0 +1,18 @@
+a) Ao receber a variável B, aparecerá B como valor de 5, e A o valor de 10.
+
+
+b) C vai ser a soma das variáveis A + B, ao receber C a variável B valerá como 10, ao receber B, C, C será o resultado de A + B, receberá o valor
+de A, B, C;
+
+
+c) Irá inverter os valores de A para C, C para B e B para A.
+
+
+d) Ocorrerá uma contagem de 1 em 1, onde A vale 10, B vale 11 e A novamente, valendo 12, ao receber A, A terá o valor de B + 1, e assim terá os valores
+de A e B.
+
+
+e) C terá o valor de A + B, então assim B será igual à 20 e A será igual à 10, aparecerá os resultados de C, B e A.
+
+
+f) A variável Z será igual à X subtraído por Y, ao receber Z, X terá o valor de 5 e o valor de Y será a soma de X + Z, tendo assim o resultado de X, Y, Z.
