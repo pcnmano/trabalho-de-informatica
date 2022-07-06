@@ -1,0 +1,19 @@
+int main()
+{
+    float qt, vl, vlt;
+    
+    printf("Informe a quantidade de maçãs compradas: ");
+    scanf("%f", &qt);
+    
+    if(qt -> = 12){
+        valor = 1.00;
+    } else {
+        valor = 1.30;
+    }
+
+    vlt = qt * vl;
+    
+    printf("O valor total é R$%.2f", vlt);
+    
+    return 0;
+}
