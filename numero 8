@@ -1,0 +1,35 @@
+int main()
+{
+   int ele, nu, br, vl, pb, pv, pn;
+   printf("Informe o número de eleitores do município: ");
+   scanf("%d", &ele);
+   
+   printf("Informe o número de votos em branco: ");
+   scanf("%d", &br);
+   
+   printf("Informe o número de votos válidos: ");
+   scanf("%d", &vl);
+   
+   printf("Informe o número de votos nulos: ");
+   scanf("%d", &nu);
+   
+   if((br + nu + vl) < ele){
+       nu = nu + (ele - (br + nu + vl));
+   }
+   
+   if((br + nu + vl) > ele){
+       printf("\nEleição fraudada!");
+       return 0;
+      
+   }
+   
+   pb = (br * 100)/ele;
+   pv = (vl * 100)/ele;
+   pn = (nu * 100)/ele;
+
+   printf("\n\tA porcentagem dos votos em branco são de %d", pb);
+   printf("\n\tA porcentagem dos votos nulos são de %d", pn);
+   printf("\n\tA porcentagem dos votos válidos são de %d", pv);
+   
+   return 0;
+}
