@@ -1,0 +1,22 @@
+int main()
+{
+    float c, vendast, valorc, sal, valorf;
+    
+    printf("Informe a quantidade de carros vendidos: ");
+    scanf("%f", &c);
+    
+    printf("\nInforme o valor total de suas vendas: ");
+    scanf("%f", &vendast);
+    
+    printf("\nInforme o valor fixo: ");
+    scanf("%f", &sal);
+    
+    printf("\nInforme o valor recebido por carro vendido: ");
+    scanf("%f", &valorc);
+    
+    valorf = sal + valorc + vendast * 0.005;
+    
+    printf("O valor total do salário do vendedor é R$%.2f", valorf);
+
+    return 0;
+}
