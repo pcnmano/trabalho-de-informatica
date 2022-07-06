@@ -1,0 +1,25 @@
+int main()
+{
+    int vl1, vl2;
+    
+    printf("Informe o primeiro valor: ");
+    scanf("%d", &vl1);
+    
+    printf("\nInforme o segundo valor: ");
+    scanf("%d", &vl2);
+    
+    if(vl1 > vl2)
+    {
+        printf("O valor 1 é maior.");
+    }
+    else
+    {
+        printf("O valor 2 é maior");
+    }
+    
+    if(vl1 = vl2)
+    {
+        printf("Os valores são iguais");
+    }
+    return 0;
+}
