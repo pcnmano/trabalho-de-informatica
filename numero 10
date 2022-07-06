@@ -1,0 +1,16 @@
+int main()
+{
+    float f, im, con, dis;
+    
+    printf("Informe o custo de fabricação do carro: ");
+    scanf("%f", &f);
+    
+    im = f * 0.45;
+    dis = f * 0.28;
+    
+    con = f + im + dis;
+    
+    printf("\nO valor do produto será de R$%.2f", con);
+
+    return 0;
+}
