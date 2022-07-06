@@ -1,0 +1,14 @@
+int main ()
+{
+    float c, f, t;
+    
+    printf("Informe o valor da temperatura Fahrnheit:");
+    scanf("%f", &f);
+    
+    c = (f - 32);
+    t = (c/1.8);
+    
+    printf("O valor em graus Celsius é igual à:\n%.1f", t);
+    
+    return 0;
+}
